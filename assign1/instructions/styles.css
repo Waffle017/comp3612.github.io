@@ -90,3 +90,64 @@ header h1 span {
   font-size: 18rem;
   color: #303647;
 }
+.products h3{
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+    margin: 2rem 2rem;
+    
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card {
+	    background: #f3f4f7;
+	    margin-bottom: 2em;	
+        padding: 0;
+        width: 24%;
+        border: 3px solid #ebecf1;
+        align-items: center;
+        border-top: 4px solid #3a766b;
+
+    }
+    .card img {
+        width: 100%;
+        display:block;
+        margin: 5rem auto;
+
+    }
+
+    .card-content {
+	    padding: 0.5em 1.4em 0 1.4em;
+	    font-size: 1rem; 
+        background-color: white;
+
+    }
+
+    .card-actions {
+        text-align: center;
+        padding-bottom: 1.5em; /* Optional: Adds spacing below the button */
+    }
+    .card-actions a{
+        background-color: #FFFFFF;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 1em 6em;
+        border: none;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        border: 3px solid black;
+    }
+
+    .card:hover{
+        border-top: 4px solid #DFAB46;
+        .card-actions a{
+            background-color: black;
+            color: white;
+        }
+    }
+}
