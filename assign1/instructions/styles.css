@@ -183,7 +183,7 @@ footer{
     flex-wrap:wrap;
 
 
-    .customerservice{
+    .customerservice, .company, .connect{
         color: white;
         list-style: none;
         font-family: 'Consolas', sans-serif;
@@ -191,38 +191,122 @@ footer{
 
         
     }
-    .customerservice a{
+    .customerservice a, .company a, .connect a{
         text-decoration: none;
         color: #abafb4;
         margin-bottom: 12px;
         
-    }
-
-    .company{
-        color: white;
-        list-style: none;
-        font-size: 1.5rem;
-    }
-
-    .company a{
-        text-decoration: none;
-        color: #abafb4;
-    }
-
-    .connect{
-        color: white;
-        list-style: none;
-        font-size: 1.5rem;
-    }
-
-    .connect a{
-        text-decoration: none;
-        color:#abafb4;
-    }
+    }  
 }
 .copyright {
-  width: 100%; /* Forces the copyright to take up the entire bottom row */
+  width: 100%; 
   text-align: left; 
   margin-top: 40px; 
   color:#abafb4;
+}
+
+/*start of about.html styles*/
+.banner2 {
+    background-color: #272d3f;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 5rem 23%;
+
+}
+
+.banner2 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    max-width: 50rem;
+    margin: 0;
+}
+
+.banner2 p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #abafb4;
+    max-width: 26rem;
+    margin: 1;
+}
+
+.story {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 3px solid #d2d4d8; 
+
+
+
+}
+.story h3 {
+    font-size: 2rem;
+    font-family: 'Robotos';
+    padding: 3rem 0 0 1rem;
+}
+
+.story p {
+    font-size: 1.25rem;
+    color: #8d9094;
+    max-width: 40%;
+    font-family: 'Consolas';
+}
+
+
+.values {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+
+.value-card {
+    border: 3px solid #d2d4d8;
+    background-color: #f3f4f7;
+    width: 25%;
+    color: #8d9094;
+    
+
+}
+.value-card h4 {
+    font-size: 1.25rem;
+    color: black;
+    width: 100%;
+    font-family: "Robotos";
+    padding: 0 0 0 1rem;
+}
+
+.value-card p {
+    padding: 0 0 0 1rem;
+    font-family: 'Consolas';
+
+}
+.valuesheader {
+    width: 100%; 
+    text-align: center; 
+    margin-top: 40px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: "Robotos";
+}
+
+/*Gemini helped me with this*/
+.i-box, .q-box, .s-box {
+    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;    
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Consolas', sans-serif;
 }
