@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family:   Roboto, Arial, sans-serif;
     font-size: 1em;
+    background-color:#f3f4f7 ;
 }
 
 header {
@@ -90,7 +91,8 @@ header h1 span {
   font-size: 18rem;
   color: #303647;
 }
-.products h3{
+
+.container h3{
     font-family: 'Playfair Display';
     font-size: 2rem;
     margin: 2rem 2rem;
@@ -144,10 +146,83 @@ header h1 span {
     }
 
     .card:hover{
-        border-top: 4px solid #DFAB46;
+        border: 3px solid black;
+        border-top: 3px solid #DFAB46;
         .card-actions a{
             background-color: black;
             color: white;
         }
+        
     }
+}
+
+.description{
+    background-color: white;
+}
+.description h5{
+    font-size: 2rem;
+    font-family: 'Playfair Display';
+    margin-top: 1rem;
+    padding: 3rem 0 0 1rem;
+
+}
+
+.description p{
+    font-family: 'Robotos';
+    max-width: 50%;
+    font-size: 1.5rem;
+    padding: 0 0 0 1rem;
+    color: #8d9094;
+}
+
+footer{
+    display:flex;
+    background-color: #171b26;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap:wrap;
+
+
+    .customerservice{
+        color: white;
+        list-style: none;
+        font-family: 'Consolas', sans-serif;
+        font-size: 1.5rem;
+
+        
+    }
+    .customerservice a{
+        text-decoration: none;
+        color: #abafb4;
+        margin-bottom: 12px;
+        
+    }
+
+    .company{
+        color: white;
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    .company a{
+        text-decoration: none;
+        color: #abafb4;
+    }
+
+    .connect{
+        color: white;
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    .connect a{
+        text-decoration: none;
+        color:#abafb4;
+    }
+}
+.copyright {
+  width: 100%; /* Forces the copyright to take up the entire bottom row */
+  text-align: left; 
+  margin-top: 40px; 
+  color:#abafb4;
 }
