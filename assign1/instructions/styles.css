@@ -261,6 +261,7 @@ footer{
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: white;
+    padding: 1rem 0em 3rem 0rem;
 
 }
 
@@ -295,7 +296,6 @@ footer{
     font-family: "Robotos";
 }
 
-/*Gemini helped me with this*/
 .i-box, .q-box, .s-box {
     background-color: black;
     width: 2.5rem;
@@ -304,9 +304,139 @@ footer{
     justify-content: center;
     align-items: center;
     border-radius: 0.25rem;    
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 1rem;
     margin-top: 1.5rem;
     font-family: 'Consolas', sans-serif;
+}
+
+.meetteambanner {
+    padding: 0 1rem 0 6%;
+}
+
+.meetteambanner h5{
+    font-style: bold;
+    font-size: 2rem;
+    font-family: 'Robotos';
+}
+
+.meetteambanner p{
+    font-size: 1.25rem;
+    width: 80%;
+    font-family: 'Consolas', sans-serif;
+}
+
+.team-photo{
+   display: inline-block;
+   border: 3px solid #8d9094;
+   margin: 0;
+   
+
+}
+
+.teamcard {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    
+}
+.jobtitle{
+   color: #DFAB46;
+}
+
+.yourname {
+    font-weight: bold;
+}
+
+.journey{
+    background-color: white;
+}
+
+.contact {
+    background-color: #f3f4f7;
+    padding: 3rem 0 3rem 6%;
+    
+}
+.contact h6 {
+    font-family:  'Robotos';
+    font-size: 2rem;
+}
+
+.contactcard{
+    border: 3px solid #d2d4d8;
+    background-color: white;
+    width: 20%;
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-right: 2rem;
+
+}
+
+.contactcard div{
+    font-family: 'Robotos';
+    font-weight: bold;
+    margin: 1rem;
+    
+}
+ 
+.contactcard p{
+    font-family: 'Consolas', sans-serif;
+    margin: 0;
+}
+
+/*start of product.html*/
+
+.productheader header {
+    padding: 0 1em;
+    background-color: #171b26;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.productheader h1{
+    color: #FFFFFF;
+    font-size: 2.5em;
+    font-family: 'Consolas', sans-serif;
+    font-weight: normal;
+    padding-left: 10rem;
+}
+
+.productheader h1 span {
+    color: #DFAB46;
+    font-family: 'Consolas', sans-serif;
+}
+
+
+.breadcrumb{
+    font-family: 'Consolas', sans-serif;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0.25rem;
+    padding-left: 10rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.images{
+    padding-left: 10rem;
+}
+
+.images img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.small-images{
+    display: flex;
+    width: 80%;
+    gap: 1rem;
 }
