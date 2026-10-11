@@ -42,7 +42,7 @@ header h1 span {
 }
 
 .nav-buttons a:hover {
-    background-color: #34495e; /* The purple color applies only when hovered */
+    background-color: #34495e; 
 }
 
 .banner {
@@ -353,6 +353,44 @@ footer{
     background-color: white;
 }
 
+.journey {
+    text-align: center;
+    padding: 2rem;
+}
+
+.journey h6 {
+    color: #1a233a;
+    font-size: 2rem;
+    font-family: 'Robotos';
+}
+
+
+.journey-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0 auto; 
+    max-width: 600px; 
+    text-align: left; 
+}
+
+
+.journey-list li {
+    margin-bottom: 2rem; 
+}
+
+
+.journey-list .season {
+    font-weight: bold;
+    color: #4a6c82; 
+    font-family: 'Consolas', sans-serif; 
+
+}
+
+.journey-list p {
+    color: #3b3c40;
+    font-family: 'Consolas', sans-serif;
+}
+
 .contact {
     background-color: #f3f4f7;
     padding: 3rem 0 3rem 6%;
@@ -439,4 +477,201 @@ footer{
     display: flex;
     width: 80%;
     gap: 1rem;
+}
+
+.details h1{
+    font-family: 'Robotos';
+    width: 20%;
+}
+
+.reviews {
+    color:#d6a419;
+}
+
+.details h2{
+    font-family: 'Consolas', sans-serif;
+}
+
+.details p {
+    font-family: 'Consolas', sans-serif;
+    width: 70%;
+}
+
+.details h3{
+    font-family: 'Consolas', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 0;
+}
+
+.size-options a{
+    border: 2px solid #abafb4;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    }
+
+.size-options a:hover{
+    background-color: #abafb4;
+    color: #898d92;
+    }
+
+.color {
+    display: flex;
+    gap: 12px;
+}
+
+.color div{
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   border: 1px solid #abafb4; 
+}
+
+.quantity p {
+    border: 1px solid #abafb4;
+    background-color: white;
+    padding: 0.75rem;
+    width: 10%;
+}
+
+.buttons{
+    display: flex;
+    gap: 12px;
+}
+.buttons input {
+    background-color:#d6a419;
+    color: #373c52;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5em 2em;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.buttons a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.description{
+    display:flex;
+    gap: 2rem;
+    border-top: 2px solid #8d9094;
+    border-bottom: 2px solid #8d9094;
+    background-color: #f3f4f7;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.active{
+    border-bottom: 2px solid #d6a419;
+}
+
+.tabs a{
+    text-decoration: none;
+    font-family: 'Consolas', sans-serif;
+    color: black;
+    padding: 15px 1rem 15px 1rem;
+}
+
+
+
+.productdetails{
+    padding-left: 10rem;
+    padding-bottom: 5rem;
+}
+.productdetails h1{
+    font-family: 'Robotos';
+}
+
+.productdetails p{
+    font-family: 'Consolas', sans-serif;
+    width: 37%;
+}
+
+.features{
+    max-width: 600px;
+    font-family: 'Robotos';
+}
+.featuresrow {
+    display:flex;
+    padding: 10px 0;
+    border-bottom : 1px solid #8d9094;
+    
+    
+}
+
+.featuresrow div{
+    width: 30%;
+    font-weight: bold;
+    font-family: 'Robotos';
+}
+
+.featuresrow p{
+    width: 70%;
+    text-align: left;
+    margin: 0;
+}
+
+
+.customerreviews {
+    width: 85%;
+    padding-left: 10rem;
+}
+.customerreviews h1{
+    padding-top: 2rem;
+    border-top: 1px solid #8d9094;
+}
+
+.customer{
+    border-bottom: 1px solid #8d9094;
+    font-family: 'Consolas', sans-serif;
+    padding: 2rem;
+}
+
+.customer h1{
+    border-top: none;
+    font-family: 'Consolas', sans-serif;
+}
+
+.customer p{
+    width: 50%;
+}
+
+
+.review-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.name-and-stars {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+}
+
+.stars{
+    color:#d6a419;
+}
+
+.name{
+    font-family: 'Consolas', sans-serif;
 }
